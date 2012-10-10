@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DCViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *authButton;
+@property (strong, nonatomic) IBOutlet UITextView *textNoteOrLink;
+- (IBAction)authButtonAction:(id)sender;
 
 @end

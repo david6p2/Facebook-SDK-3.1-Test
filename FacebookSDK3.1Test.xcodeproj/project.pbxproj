@@ -23,6 +23,12 @@
 		242BD1061624F71B008D7D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD0E11624F71B008D7D32 /* Foundation.framework */; };
 		242BD10E1624F71B008D7D32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242BD10C1624F71B008D7D32 /* InfoPlist.strings */; };
 		242BD1111624F71B008D7D32 /* FacebookSDK3_1TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242BD1101624F71B008D7D32 /* FacebookSDK3_1TestTests.m */; };
+		242BD11B1624F7A4008D7D32 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD11A1624F7A4008D7D32 /* FacebookSDK.framework */; };
+		242BD11D1624F7CC008D7D32 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 242BD11C1624F7CC008D7D32 /* FacebookSDKResources.bundle */; };
+		242BD11F1624F7EA008D7D32 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 242BD11E1624F7EA008D7D32 /* FBUserSettingsViewResources.bundle */; };
+		242BD1231624F809008D7D32 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD1201624F809008D7D32 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		242BD1241624F809008D7D32 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD1211624F809008D7D32 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		242BD1251624F809008D7D32 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD1221624F809008D7D32 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,12 @@
 		242BD10D1624F71B008D7D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		242BD10F1624F71B008D7D32 /* FacebookSDK3_1TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookSDK3_1TestTests.h; sourceTree = "<group>"; };
 		242BD1101624F71B008D7D32 /* FacebookSDK3_1TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookSDK3_1TestTests.m; sourceTree = "<group>"; };
+		242BD11A1624F7A4008D7D32 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		242BD11C1624F7CC008D7D32 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		242BD11E1624F7EA008D7D32 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		242BD1201624F809008D7D32 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		242BD1211624F809008D7D32 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		242BD1221624F809008D7D32 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242BD1231624F809008D7D32 /* Accounts.framework in Frameworks */,
+				242BD1241624F809008D7D32 /* AdSupport.framework in Frameworks */,
+				242BD1251624F809008D7D32 /* Social.framework in Frameworks */,
 				242BD0E01624F71B008D7D32 /* UIKit.framework in Frameworks */,
 				242BD0E21624F71B008D7D32 /* Foundation.framework in Frameworks */,
 				242BD0E41624F71B008D7D32 /* CoreGraphics.framework in Frameworks */,
+				242BD11B1624F7A4008D7D32 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +122,12 @@
 		242BD0DE1624F71B008D7D32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				242BD11E1624F7EA008D7D32 /* FBUserSettingsViewResources.bundle */,
+				242BD11A1624F7A4008D7D32 /* FacebookSDK.framework */,
+				242BD11C1624F7CC008D7D32 /* FacebookSDKResources.bundle */,
+				242BD1201624F809008D7D32 /* Accounts.framework */,
+				242BD1211624F809008D7D32 /* AdSupport.framework */,
+				242BD1221624F809008D7D32 /* Social.framework */,
 				242BD0DF1624F71B008D7D32 /* UIKit.framework */,
 				242BD0E11624F71B008D7D32 /* Foundation.framework */,
 				242BD0E31624F71B008D7D32 /* CoreGraphics.framework */,
@@ -237,6 +259,8 @@
 				242BD0F41624F71B008D7D32 /* Default@2x.png in Resources */,
 				242BD0F61624F71B008D7D32 /* Default-568h@2x.png in Resources */,
 				242BD0F91624F71B008D7D32 /* MainStoryboard.storyboard in Resources */,
+				242BD11D1624F7CC008D7D32 /* FacebookSDKResources.bundle in Resources */,
+				242BD11F1624F7EA008D7D32 /* FBUserSettingsViewResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +399,14 @@
 		242BD1151624F71B008D7D32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookSDK3.1Test/FacebookSDK3.1Test-Prefix.pch";
 				INFOPLIST_FILE = "FacebookSDK3.1Test/FacebookSDK3.1Test-Info.plist";
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,9 +415,14 @@
 		242BD1161624F71B008D7D32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookSDK3.1Test/FacebookSDK3.1Test-Prefix.pch";
 				INFOPLIST_FILE = "FacebookSDK3.1Test/FacebookSDK3.1Test-Info.plist";
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
