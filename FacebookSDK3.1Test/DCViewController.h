@@ -10,7 +10,9 @@
 
 @interface DCViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIButton *authButton;
+@property (strong, nonatomic) IBOutlet UIButton *publishButton;
 @property (strong, nonatomic) IBOutlet UITextView *textNoteOrLink;
 - (IBAction)authButtonAction:(id)sender;
+- (IBAction)publishButtonAction:(id)sender;
 
 @end

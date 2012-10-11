@@ -29,6 +29,8 @@
 		242BD1231624F809008D7D32 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD1201624F809008D7D32 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		242BD1241624F809008D7D32 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD1211624F809008D7D32 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		242BD1251624F809008D7D32 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242BD1221624F809008D7D32 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		24B8D01D162726E400DDA927 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B8D01C162726E400DDA927 /* ShareViewController.m */; };
+		24B8D020162756BC00DDA927 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B8D01F162756BC00DDA927 /* ShareViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		242BD1201624F809008D7D32 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		242BD1211624F809008D7D32 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		242BD1221624F809008D7D32 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		24B8D01B162726E400DDA927 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		24B8D01C162726E400DDA927 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		24B8D01F162756BC00DDA927 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,9 @@
 				242BD0EE1624F71B008D7D32 /* DCAppDelegate.h */,
 				242BD0EF1624F71B008D7D32 /* DCAppDelegate.m */,
 				242BD0F71624F71B008D7D32 /* MainStoryboard.storyboard */,
+				24B8D01B162726E400DDA927 /* ShareViewController.h */,
+				24B8D01C162726E400DDA927 /* ShareViewController.m */,
+				24B8D01F162756BC00DDA927 /* ShareViewController.xib */,
 				242BD0FA1624F71B008D7D32 /* DCViewController.h */,
 				242BD0FB1624F71B008D7D32 /* DCViewController.m */,
 				242BD0E61624F71B008D7D32 /* Supporting Files */,
@@ -261,6 +269,7 @@
 				242BD0F91624F71B008D7D32 /* MainStoryboard.storyboard in Resources */,
 				242BD11D1624F7CC008D7D32 /* FacebookSDKResources.bundle in Resources */,
 				242BD11F1624F7EA008D7D32 /* FBUserSettingsViewResources.bundle in Resources */,
+				24B8D020162756BC00DDA927 /* ShareViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +307,7 @@
 				242BD0EC1624F71B008D7D32 /* main.m in Sources */,
 				242BD0F01624F71B008D7D32 /* DCAppDelegate.m in Sources */,
 				242BD0FC1624F71B008D7D32 /* DCViewController.m in Sources */,
+				24B8D01D162726E400DDA927 /* ShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +491,7 @@
 				242BD1161624F71B008D7D32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242BD1171624F71B008D7D32 /* Build configuration list for PBXNativeTarget "FacebookSDK3.1TestTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +500,7 @@
 				242BD1191624F71B008D7D32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

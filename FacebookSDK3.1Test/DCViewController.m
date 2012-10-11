@@ -8,6 +8,7 @@
 
 #import "DCViewController.h"
 #import "DCAppDelegate.h"
+#import "ShareViewController.h"
 
 @interface DCViewController ()
 
@@ -53,12 +54,23 @@
     }
 }
 
+
+- (IBAction)publishButtonAction:(id)sender {
+    //UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    //ShareViewController*  viewController = [storyboard instantiateViewControllerWithIdentifier:@"ShareViewController"];
+    
+    ShareViewController *viewController = [[ShareViewController alloc] initWithNibName:@"ShareViewController" bundle:nil];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
 - (void)sessionStateChanged:(NSNotification*)notification {
     if (FBSession.activeSession.isOpen) {
         [self.authButton setTitle:@"Logout" forState:UIControlStateNormal];
+        self.publishButton.hidden = NO;
         [self.textNoteOrLink setText:[NSString stringWithFormat:@"%@",FBSession.activeSession.accessToken]];
     } else {
         [self.authButton setTitle:@"Login" forState:UIControlStateNormal];
+        self.publishButton.hidden = YES;
         [self.textNoteOrLink setText:[NSString stringWithFormat:@"Please, Login!"]];
     }
 }
